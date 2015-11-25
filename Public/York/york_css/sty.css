@@ -1,0 +1,304 @@
+.york_header_s {
+  height: 5rem;
+  z-index: 1000;
+  padding: 1px;
+  position: fixed;
+  width: 100%;
+  background: #FFFFFF;
+  /*box-sizing: border-box;*/
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+.york_header_s .york_header {
+  padding: 2px;
+}
+.york_header_s .york_header .h_left {
+  float: left;
+  padding: 2px;
+}
+.york_header_s .york_header .h_left img {
+  width: 100px;
+}
+.york_header_s .york_header .h_right {
+  text-align: right;
+  height: 4rem;
+  padding: 1rem;
+}
+.york_header_s .york_header .h_right i {
+  font-size: 2rem;
+}
+.no_go i {
+  color: white;
+  font-size: 30px;
+  font-size: 3rem;
+  z-index: 55;
+}
+.no_go .no_row {
+  position: relative;
+}
+.no_go .no_row .no_left {
+  width: 50%;
+  position: relative;
+  float: left;
+  padding: 5px;
+  padding: 0.5rem;
+}
+.no_go .no_row .yk_p {
+  padding-right: 20px;
+  padding-right: 2rem;
+  padding-left: 10px;
+  padding-left: 1rem;
+  position: absolute;
+  top: 40%;
+  width: 50%;
+}
+.no_go .no_row .yk_p p {
+  font-size: 10px;
+  font-size: 1rem;
+}
+.no_go .no_row .yk_bth {
+  padding-left: 5px;
+  padding-left: 0.5rem;
+  position: absolute;
+  bottom: 0px;
+}
+.no_go .no_row .no_right {
+  position: relative;
+}
+.no_go .no_row .no_right img {
+  width: 50%;
+}
+.no_go .no_row i {
+  position: absolute;
+  z-index: 555;
+  left: 50%;
+  top: 43%;
+  margin-left: -10px;
+  margin-left: -1rem;
+}
+.no_go .no_row2 {
+  width: 100%;
+  position: relative;
+}
+.no_go .no_row2 img {
+  width: 50%;
+}
+.no_go .no_row2 i {
+  position: absolute;
+  top: 40%;
+  margin-left: -20px;
+  margin-left: -2rem;
+}
+.no_go .no_row2 .no_right {
+  width: 49%;
+  float: right;
+}
+.no_go .no_row2 .no_right .yk_p {
+  position: absolute;
+  top: 40%;
+}
+.no_go .no_row2 .no_right .yk_p p {
+  padding-right: 20px;
+  padding-right: 2rem;
+  padding-left: 10px;
+  padding-left: 1rem;
+  font-size: 10px;
+  font-size: 1rem;
+}
+.no_go .no_row2 .no_right .yk_bth {
+  position: absolute;
+  bottom: 3px;
+}
+.york_footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  border: 2px silver solid;
+  height: 4rem;
+  background: white;
+  z-index: 1000;
+}
+.york_footer button {
+  background: #FFCC33;
+  -webkit-box-shadow: 5px 5px 5px #FF9900;
+  -moz-box-shadow: 5px 5px 5px #FF9900    ;
+  box-shadow: 5px 5px 5px #FF9900    ;
+  width: 100%;
+  color: white;
+}
+.york_footer button:hover {
+  background: #FFCC99;
+}
+.yk_box {
+  border: solid 2px blue;
+  position: relative;
+  transition: all  4s ease ;
+}
+.yk_box .york_box_left {
+  width: 50%;
+  padding: 5px;
+  padding: 0.5rem;
+  float: left;
+}
+.yk_box .york_box_left .yk_p {
+  font-size: 10px;
+  font-size: 1rem;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  border: 2px solid darkred;
+}
+.yk_box .york_box_left .yk_bt {
+  position: absolute;
+  bottom: 0px;
+}
+.yk_box .york_box_right {
+  width: 50%;
+  margin-left: 50%;
+  position: relative;
+  right: 0px;
+  overflow: hidden;
+}
+.yk_box .york_box_right .icon_yk {
+  position: absolute;
+  color: white;
+  top: 47%;
+  left: -7px;
+  font-size: 25px;
+  z-index: 555;
+}
+.yk_box .york_box_right .images {
+  width: 100%;
+  transition: all  4s ease ;
+}
+.yk_box .york_box_right .images:hover {
+  transform: scale(1.5);
+}
+.yk_box2 {
+  border: solid 2px blue;
+  position: relative;
+}
+.yk_box2 .york_box2_left {
+  width: 50%;
+  display: inline;
+  position: relative;
+}
+.yk_box2 .york_box2_left .icon_yk {
+  position: absolute;
+  z-index: 555;
+  color: white;
+  top: 47%;
+  right: -7px;
+  font-size: 25px;
+}
+.yk_box2 .york_box2_left .images {
+  width: 50%;
+}
+.yk_box2 .york_box2_right {
+  width: 50%;
+  float: right;
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  left: 50%;
+  padding: 5px;
+  padding: 0.5rem;
+}
+.yk_box2 .yk_top {
+  border: 2px solid darkred;
+}
+.yk_box2 .yk_p {
+  font-size: 10px;
+  font-size: 1rem;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+.yk_box2 .yk_bt {
+  position: absolute;
+  bottom: 2px;
+}
+.york_centers .york_cols {
+  width: 100%;
+  border: 2px solid black;
+}
+.york_centers .york_cols .yk_left {
+  width: 50%;
+  float: left;
+  padding: 5px;
+  padding: 0.5rem;
+  position: relative;
+}
+.york_centers .york_cols .yk_left .yk_s {
+  height: 211px;
+}
+.york_centers .york_cols .yk_left .yk_bt {
+  position: absolute;
+  bottom: 2px;
+}
+.york_centers .york_cols .yk_right {
+  width: 50%;
+  float: left;
+  position: relative;
+  border: 2px solid darkblue;
+}
+.york_centers .york_cols .yk_right img {
+  width: 100%;
+  transition: background-color 1s ease-in;
+}
+.york_centers .york_cols .yk_right img:hover {
+  width: 100px;
+}
+.york_centers .york_cols .yk_right .yk_1 {
+  position: absolute;
+  z-index: 5555;
+  top: 45%;
+  font-size: 30px;
+  font-size: 3rem;
+  color: white;
+  left: -10px;
+  left: -1rem;
+}
+.york_header_clear {
+  height: 5rem;
+}
+.yk_big_img {
+  z-index: 1115;
+}
+.yk_big_img .headerImage > img {
+  width: 100%;
+}
+.yk_tables {
+  padding: 5px;
+}
+.yk_tables .yk_ta_header {
+  width: 100%;
+  text-align: center;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 10px;
+  border: 1px solid #AAAAAA;
+  line-height: 4rem;
+  margin-bottom: 2px;
+  background: #FFCC00;
+}
+.yk_tables table tr:hover {
+  background: #CC6600;
+}
+.yk_tables table tr th {
+  background: #FF9900;
+  text-align: center;
+}
+.yk_tables table tr td {
+  padding: 2px;
+  text-align: center;
+  vertical-align: middle;
+}
+.yk_footer {
+  text-align: center;
+}
+.yk_footer div {
+  font-size: 13px;
+  font-size: 1.3rem;
+  padding: 1rem;
+}

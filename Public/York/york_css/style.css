@@ -1,0 +1,34 @@
+.york_header_s{
+
+}
+.york_header{
+    height: 5rem;
+    border: solid 1px red;
+    padding: 1px;
+    position: fixed;
+    width: 100%;
+    background: #FFFFFF;
+    /*box-sizing: border-box;*/
+}
+
+.h_left{
+    float: left;
+}
+
+.h_right{
+
+    float: right;
+    border: 2px solid red;
+}
+
+.yk_clear{
+    clear: both;
+}
+
+
+.headerImage{
+    border: solid 1px green;
+}
+.headerImage >img  {
+    width: 100%;
+}

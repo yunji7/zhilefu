@@ -1,0 +1,435 @@
+.york_header_s{
+
+
+  height: 5rem;
+  z-index: 1000;
+  //border: solid 2px gold;
+  padding: 1px;
+  position: fixed;
+  width: 100%;
+  background: #FFFFFF;
+
+  /*box-sizing: border-box;*/
+  //box-shadow:5px 5px 5px rgba(0,0,0,.6);
+
+  -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,.6);
+  -moz-box-shadow: 5px 5px 5px rgba(0,0,0,.6)    ;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.6)    ;
+
+
+  //头部 固定
+  .york_header{
+     padding: 2px;
+
+    .h_left{
+      float: left;
+      //border: 2px solid red;
+      padding: 2px;
+      img{
+        width:100px;
+      }
+    }
+    .h_right{
+      //display: inline;
+      text-align: right;
+      //border: 2px solid red;
+      height: 4rem;
+      padding: 1rem;
+      i{
+        //border: 2px solid red;
+        font-size: 2rem;
+      }
+    }
+
+
+  }
+
+  //尾部
+
+}
+
+
+
+.no_go{
+  i{
+    color: white;
+    font-size: 30px;
+    font-size: 3rem;
+    z-index: 55;
+  }
+
+ .no_row{
+   //border: 5px solid rebeccapurple;
+   position: relative;
+   .no_left{
+     width: 50%;
+     //border: 1px solid gold;
+     //float: left;
+     position: relative;
+     float: left;
+     padding: 5px;
+     padding: 0.5rem;
+
+   }
+   .yk_p{
+     //padding: 5px;
+     //padding: 0.5rem;
+     padding-right: 20px;
+     padding-right: 2rem;
+     padding-left: 10px;
+     padding-left: 1rem;
+     position: absolute;
+     top: 40%;
+     width: 50%;
+     p{
+       font-size: 10px;
+       font-size: 1rem;
+     }
+   }
+   .yk_bth{
+     //padding: 5px;
+     //padding: 0.5rem;
+     padding-left: 5px;
+     padding-left: 0.5rem;
+     position: absolute;
+     bottom: 0px;
+   }
+   .no_right{
+     position: relative;
+
+      img{
+        width: 50%;
+      }
+   }
+   i{
+     position: absolute;
+     z-index: 555;
+     left: 50%;
+     top:43%;
+     //left: 7px;
+     //left: 0.7rem;
+     margin-left: -10px;
+     margin-left: -1rem;
+     //border: royalblue solid 2px;
+   }
+ }
+
+
+
+
+  .no_row2{
+    width: 100%;
+    position: relative;
+    //border: 2px solid rebeccapurple;
+      img{
+        width: 50%;
+        //display: inline;
+      }
+    i{
+      position: absolute;
+      top: 40%;
+       margin-left: -20px;
+       margin-left: -2rem;
+      //margin-left: -3%;
+      //border: 3px solid forestgreen;
+      //box-sizing: border-box;
+    }
+
+    .no_right{
+
+      width: 49%;
+      float: right;
+      .yk_p{
+        position: absolute;
+        top:40%;
+        p{
+          padding-right: 20px;
+          padding-right: 2rem;
+          padding-left: 10px;
+          padding-left: 1rem;
+          font-size: 10px;
+          font-size: 1rem;
+        }
+      }
+      .yk_bth{
+        position: absolute;
+        bottom: 3px;
+      }
+    }
+  }
+}
+
+
+
+
+//底部 固定
+.york_footer{
+  width: 100%;
+
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  border: 2px silver solid;
+  height: 4rem;
+  background: white;
+z-index: 1000;
+  button{
+    background: #FFCC33;
+
+    -webkit-box-shadow: 5px 5px 5px #FF9900;
+    -moz-box-shadow: 5px 5px 5px #FF9900    ;
+    box-shadow: 5px 5px 5px #FF9900    ;
+    width: 100%;
+    color: white;
+  }
+  button:hover{
+    background: #FFCC99;
+  }
+}
+
+
+.yk_box{
+  border: solid 2px blue;
+  position: relative;
+  .york_box_left{
+    width: 50%;
+    //position: absolute;
+    //margin-left: 100px;
+    padding: 5px;
+    padding: 0.5rem;
+    float: left;
+
+    .yk_p{
+      font-size: 10px;
+      font-size: 1rem;
+      margin-top: 10%;
+      margin-bottom: 20%;
+      border: 2px solid darkred;
+    }
+
+    .yk_bt{
+
+      position: absolute;
+      bottom: 0px;
+    }
+  }
+  .york_box_right{
+    width: 50%;
+    margin-left: 50%;
+
+    position: relative;
+
+    right: 0px;
+    overflow: hidden;
+    .icon_yk{
+      position: absolute;
+      color: white;
+      top: 47%;
+      left: -7px;
+      font-size: 25px;
+      z-index: 555;
+    }
+    .images{
+      width: 100%;
+      transition:  all  4s ease ;
+//transition-property: length, percentage;
+      &:hover{
+        transform: scale(1.5);
+      }
+
+    }
+
+  }
+
+   transition:  all  4s ease ;
+}
+
+
+.yk_box2{
+  border: solid 2px blue;
+  position: relative;
+  .york_box2_left{
+    width: 50%;
+    display: inline;
+    position: relative;
+    .icon_yk{
+      position: absolute;
+      z-index: 555;
+      color: white;
+      top: 47%;
+      right: -7px;
+      font-size: 25px;
+
+    }
+    .images{
+      width: 50%;
+    }
+  }
+  .york_box2_right{
+    width: 50%;
+    float: right;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 50%;
+    //margin-left: -50%;
+    padding: 5px;
+    padding: 0.5rem;
+    }
+
+  .yk_top{
+    border: 2px solid darkred;
+
+  }
+
+
+  .yk_p{
+    font-size: 10px;
+    font-size: 1rem;
+    margin-top: 10%;
+    margin-bottom: 20%;
+
+  }
+
+  .yk_bt{
+    position: absolute;
+    bottom: 2px;
+  }
+
+
+}
+
+
+.york_centers{
+  //transition:background-color 1s ease-in;
+  //&:hover{
+  //  background: forestgreen;
+  //}
+  .york_cols{
+
+   width: 100%;
+    border: 2px solid black;
+
+    .yk_left{
+        width: 50%;
+      float: left;
+      //position: relative;
+      //border: 1px solid red;
+      padding: 5px;
+      padding: 0.5rem;
+      position: relative;
+      .yk_s{
+        height: 211px;
+      }
+      .yk_bt{
+        position: absolute;
+        bottom: 2px;
+      }
+    }
+    .yk_right{
+      width: 50%;
+      float: left;
+      position: relative;
+      border: 2px solid darkblue;
+      img{
+        width: 100%;
+        transition:background-color 1s ease-in;
+        &:hover{
+
+          width: 100px;
+        }
+      }
+      .yk_1{
+        position: absolute;
+        z-index: 5555;
+        top: 45%;
+        font-size: 30px;
+        font-size: 3rem;
+        color: white;
+        left: -10px;
+        left: -1rem;
+      }
+    }
+  }
+}
+
+
+//首页大图片
+.york_header_clear{
+  height: 5rem;
+}
+
+.yk_big_img{
+
+    z-index: 1115;
+    //border: 2px solid royalblue;
+    .headerImage{
+      //border: solid 1px green;
+    }
+    .headerImage >img  {
+      width: 100%;
+    }
+
+}
+
+
+
+//表单
+.yk_tables{
+  padding: 5px;
+ .yk_ta_header{
+   width: 100%;
+   text-align: center;
+   -webkit-border-radius:1px;
+   -moz-border-radius:1px;
+   border-radius:10px;
+   border: 1px solid #AAAAAA;
+   line-height: 4rem;
+   margin-bottom: 2px;
+   background: #FFCC00;
+ }
+
+  table{
+    tr{
+      &:hover{
+        background: #CC6600;
+      }
+      th{
+        background: #FF9900;
+        text-align: center;
+      }
+      td{
+        //background: #FF9900;
+        padding: 2px;
+        text-align: center;
+        vertical-align: middle;
+        //border: saddlebrown 1px solid;
+      }
+    }
+  }
+
+
+}
+
+
+
+
+
+
+
+
+//底部 联系
+.yk_footer{
+  text-align: center;
+
+  div{
+    font-size: 13px;
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
+}
+
+
+
+
+
